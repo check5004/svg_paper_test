@@ -38,6 +38,9 @@ dependencies:
   webview_flutter: ^4.9.0
   pdf: ^3.11.1
   printing: ^5.13.2
+  screenshot: ^3.0.0
+  share_plus: ^10.0.2
+  path_provider: ^2.1.4
 
 dev_dependencies:
   flutter_test:
@@ -64,6 +67,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/Template_test.svg
+    - assets/Template_test_sed.svg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

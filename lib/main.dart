@@ -32,14 +32,29 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  Key _svgToPdfConverterKey = UniqueKey();
+
+  void _resetSvgToPdfConverter() {
+    setState(() {
+      _svgToPdfConverterKey = UniqueKey();
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.refresh),
+            onPressed: _resetSvgToPdfConverter,
+            tooltip: 'リセット',
+          ),
+        ],
       ),
-      body: const SvgToPdfConverter(),
+      body: SvgToPdfConverter(key: _svgToPdfConverterKey),
       backgroundColor: Theme.of(context).colorScheme.tertiaryContainer,
     );
   }
