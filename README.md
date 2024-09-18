@@ -2,6 +2,9 @@
 
 このプロジェクトは、FigmaでデザインしたSVGテンプレートを使用して、クライアントサイドでPDF帳票を動的に生成するデモアプリケーションです。[ttskchさんが開発したSVG Paperライブラリ](https://zenn.dev/ttskch/articles/1f1572cfd2e375)を主に使用しています。
 
+### Download
+[Download APK](https://drive.google.com/file/d/1OdfcNK5STPAGvzOxWKCcvwkVAqb-ToI2/view?usp=sharing)
+
 ### 概要
 このアプリケーションは以下の機能を提供します：
 1. SVGテンプレートの読み込みと表示
