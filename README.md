@@ -53,5 +53,6 @@
 - [先日編み出した帳票印刷のベストプラクティスをnpmライブラリとして公開しました](https://zenn.dev/ttskch/articles/8ee0eaaabf0657#svg-paper%E8%87%AA%E4%BD%93%E3%81%AE%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9)
 - [SVG Paper ライブラリ](https://github.com/ttskch/svg-paper)
 - [SVGテンプレートの準備方法](https://github.com/ttskch/svg-paper/blob/main/docs/how-to-prepare-svg-template.md)
+- [FlutterでPDFを作成、保存、プレビューする](https://zenn.dev/inari_sushio/articles/3336ac12141840)
 
 このプロジェクトは、Webテクノロジーを活用したクロスプラットフォームな帳票生成ソリューションのプロトタイプとして開発されています。
