@@ -11,6 +11,8 @@
 1. テンプレート内の変数の動的置換
 1. 生成された帳票のPDF出力
 1. 生成された帳票の画像保存（※現在開発中）
+  
+![GIF 2024-09-18 11-58-52](https://github.com/user-attachments/assets/7159bde0-04be-4f85-97cc-e0f7e92b844a)
 
 ### 主な特徴
 - Figmaで作成したSVGテンプレートを使用
