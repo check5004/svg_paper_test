@@ -1,16 +1,32 @@
 # svg_paper_test
 
-A new Flutter project.
+このプロジェクトは、FigmaでデザインしたSVGテンプレートを使用して、クライアントサイドでPDF帳票を動的に生成するデモアプリケーションです。[ttskchさんが開発したSVG Paperライブラリ](https://zenn.dev/ttskch/articles/1f1572cfd2e375)を主に使用しています。
 
-## Getting Started
+### 概要
+このアプリケーションは以下の機能を提供します：
+1. SVGテンプレートの読み込みと表示
+1. テンプレート内の変数の動的置換
+1. 生成された帳票のPDF出力
+1. 生成された帳票の画像保存（※現在開発中）
 
-This project is a starting point for a Flutter application.
+### 主な特徴
+- Figmaで作成したSVGテンプレートを使用
+- クライアントサイドでの動的なデータ置換
+- WebViewを使用したSVGの表示
+- PDF出力機能
 
-A few resources to get you started if this is your first Flutter project:
+### 使用方法
+1. アプリを起動すると、SVGテンプレートが読み込まれ表示されます。
+1. 「変数置換」ボタンをタップすると、サンプルデータがテンプレートに挿入されます。
+1. 「PDF保存」ボタンをタップすると、現在表示されている帳票がPDFとして保存され、共有オプションが表示されます。
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 注意事項
+画像保存機能は現在開発中で、完全には機能していません。将来のアップデートで追加される予定です。
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 技術スタック
+- Flutter
+- WebView
+- SVG Paper ライブラリ
+- HTML to PDF 変換
+
+このプロジェクトは、Webテクノロジーを活用したクロスプラットフォームな帳票生成ソリューションのプロトタイプとして開発されています。
