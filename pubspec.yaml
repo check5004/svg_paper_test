@@ -41,6 +41,8 @@ dependencies:
   screenshot: ^3.0.0
   share_plus: ^10.0.2
   path_provider: ^2.1.4
+  html_to_pdf: ^0.8.1
+  html_unescape: ^2.0.0
 
 dev_dependencies:
   flutter_test:
