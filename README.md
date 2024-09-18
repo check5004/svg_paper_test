@@ -24,12 +24,14 @@
 1. 「PDF保存」ボタンをタップすると、現在表示されている帳票がPDFとして保存され、共有オプションが表示されます。
 
 ### 注意事項
-画像保存機能は現在開発中で、完全には機能していません。将来のアップデートで追加される予定です。
+- 画像保存機能は現在開発中で、完全には機能していません。
+- A4サイズでのみ検証
+- 内部処理ではA4サイズの高さが295mmとなっていたので本来の297mmに対応するためCSSを調整しています。
 
-### 技術スタック
-- Flutter
-- WebView
-- SVG Paper ライブラリ
-- HTML to PDF 変換
+### 参考
+- [ついに、Webアプリでの帳票印刷のベストプラクティスを編み出しました](https://zenn.dev/ttskch/articles/1f1572cfd2e375)
+- [先日編み出した帳票印刷のベストプラクティスをnpmライブラリとして公開しました](https://zenn.dev/ttskch/articles/8ee0eaaabf0657#svg-paper%E8%87%AA%E4%BD%93%E3%81%AE%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9)
+- [SVG Paper ライブラリ](https://github.com/ttskch/svg-paper)
+- [SVGテンプレートの準備方法](https://github.com/ttskch/svg-paper/blob/main/docs/how-to-prepare-svg-template.md)
 
 このプロジェクトは、Webテクノロジーを活用したクロスプラットフォームな帳票生成ソリューションのプロトタイプとして開発されています。
